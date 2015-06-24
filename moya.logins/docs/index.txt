@@ -4,4 +4,6 @@ Moya Logins adds the ability to log in to your Moya web application with externa
 
 [index]
     introduction
+    configuration
+    development
 [/index]
