@@ -40,7 +40,7 @@
         <moya:get-url name="forgot_password" dst="forgot_password_url" />
         <moya:get-url name="signup" from="moya.signup" dst="signup_url" if=".libs['moya.signup']"/>
 
-        <hidden-input name="fwd" required="no" initial=".request.GET.fwd" />
+        <hidden-input name="fwd" required="no" initial="fwd or .request.GET.fwd" />
         <moya:include-css path="css/auth.css" from="moya.auth" />
 
         <w:error if=".request.GET.error and .request.GET.provider">
