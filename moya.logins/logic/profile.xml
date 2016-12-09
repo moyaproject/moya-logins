@@ -54,7 +54,7 @@
             <argument name="provider"/>
             <argument name="profile"/>
             <argument name="info"/>
-            <argument name="username" required="no"/>
+            <argument name="username"/>
             <argument name="email" required="no"/>
         </signature>
         <db:get-or-create model="#ProviderCounter" let:provider="provider" dst="provider_counter"/>
