@@ -110,7 +110,7 @@
                     <markdown>
                         **Final step!**
 
-                        Enter the following to create a new account.
+                        Please complete the following to sign-in.
                     </markdown>
                 </w:info>
                 <render src="form"/>
