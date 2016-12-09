@@ -12,3 +12,4 @@
 build/
 site/local.ini
 .hg
+DS_Store
